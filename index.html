@@ -4,9 +4,41 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    
+    <!-- SEO and Social Media Meta Tags -->
+    <title>Elemental Personality Quiz</title>
+    <meta name="description" content="Discover your elemental personality through an interactive quiz with unique artwork from the Metropolitan Museum of Art">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-website.com/">
+    <meta property="og:title" content="Elemental Personality Quiz">
+    <meta property="og:description" content="Discover your elemental personality through an interactive quiz with unique artwork from the Metropolitan Museum of Art">
+    <meta property="og:image" content="/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-website.com/">
+    <meta property="twitter:title" content="Elemental Personality Quiz">
+    <meta property="twitter:description" content="Discover your elemental personality through an interactive quiz with unique artwork from the Metropolitan Museum of Art">
+    <meta property="twitter:image" content="/twitter-image.png">
+
+    <!-- Favicon alternatives -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/src/main.jsx" as="script">
+    <link rel="preload" href="/src/index.css" as="style">
+
+    <!-- Performance and Accessibility -->
+    <meta name="theme-color" content="#242424">
+    <meta name="robots" content="index, follow">
   </head>
   <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
